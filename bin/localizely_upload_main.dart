@@ -1,17 +1,17 @@
-library intl_utils;
+library;
 
 import 'dart:io';
 
 import 'package:args/args.dart' as args;
-import 'package:intl_utils/src/config/config_exception.dart';
-import 'package:intl_utils/src/config/credentials_config.dart';
-import 'package:intl_utils/src/config/pubspec_config.dart';
-import 'package:intl_utils/src/constants/constants.dart';
-import 'package:intl_utils/src/localizely/api/api_exception.dart';
-import 'package:intl_utils/src/localizely/service/service.dart';
-import 'package:intl_utils/src/localizely/service/service_exception.dart';
-import 'package:intl_utils/src/utils/file_utils.dart';
-import 'package:intl_utils/src/utils/utils.dart';
+import 'package:intl_utils_fork/src/config/config_exception.dart';
+import 'package:intl_utils_fork/src/config/credentials_config.dart';
+import 'package:intl_utils_fork/src/config/pubspec_config.dart';
+import 'package:intl_utils_fork/src/constants/constants.dart';
+import 'package:intl_utils_fork/src/localizely/api/api_exception.dart';
+import 'package:intl_utils_fork/src/localizely/service/service.dart';
+import 'package:intl_utils_fork/src/localizely/service/service_exception.dart';
+import 'package:intl_utils_fork/src/utils/file_utils.dart';
+import 'package:intl_utils_fork/src/utils/utils.dart';
 
 Future<void> main(List<String> arguments) async {
   late String? projectId;

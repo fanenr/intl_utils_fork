@@ -1,4 +1,4 @@
-import 'package:intl_utils/src/utils/utils.dart';
+import 'package:intl_utils_fork/src/utils/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

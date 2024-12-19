@@ -43,7 +43,7 @@
 ///
 /// An example of usage can be found
 /// in test/message_extract/generate_from_json.dart
-library generate_localized;
+library;
 
 import 'package:intl/intl.dart';
 import 'dart:convert';
@@ -530,7 +530,7 @@ int _methodNameCounter = 0;
 /// for their translated versions.
 Map<String, String> _internalMethodNames = {};
 
-/// Generate a Dart method name of the form "m<number>".
+/// Generate a Dart method name of the form "m&lt;number&gt;".
 String _methodNameFor(String name) {
   return _internalMethodNames.putIfAbsent(
       name, () => 'm${_methodNameCounter++}');
